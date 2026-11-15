@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite it and the accompanying paper."
+type: dataset
+title: "Trustworthy AI for Low-Carbon Geopolymers: Research Artifact"
+version: "1.3.0"
+date-released: "2026-11-15"
+doi: 10.5281/zenodo.24222980
+repository-code: "https://github.com/vnageshwaran-de/trustworthy-ai-geopolymers-artifact"
+license: CC-BY-4.0
+authors:
+  - family-names: Nageshwaran
+    given-names: Vinoth
+    affiliation: "University of the Cumberlands"
+  - family-names: Chaggar
+    given-names: Pooja Kaur
+    affiliation: "Western Sydney University"
+  - family-names: Amritphale
+    given-names: Sudhir S.
+    affiliation: "Science Investments LLC"
+  - family-names: Darestani
+    given-names: Mariam
+    affiliation: "Western Sydney University"
+keywords:
+  - geopolymer
+  - alkali-activated materials
+  - machine learning
+  - systematic review
+  - PRISMA
+  - trustworthy AI
+  - life-cycle assessment

@@ -1,0 +1,42 @@
+{
+  "_note": "Lexicon for the deterministic keyword-heuristic classifier. Matching is case-insensitive substring matching on title + abstract + author keywords + index keywords. Written from the coding rules (RECODE_INSTRUCTIONS.md) before any comparison with other codings; not tuned to reproduce them.",
+  "M_material": {
+    "fly-ash": ["fly ash", "fly-ash", "flyash"],
+    "slag": ["slag", "ggbs", "ggbfs", "gbfs"],
+    "metakaolin/clay": ["metakaolin", "calcined clay", "kaolin"],
+    "red-mud": ["red mud", "bauxite residue"],
+    "tailings": ["tailing"],
+    "biomass-ash": ["rice husk ash", "biomass ash", "palm oil fuel ash", "bagasse ash", "wood ash", "corn cob ash", "rice straw ash", "agricultural ash"],
+    "recycled-aggregate": ["recycled aggregate", "recycled concrete aggregate", "recycled coarse aggregate", "recycled fine aggregate"],
+    "one-part": ["one-part", "one part geopolymer", "one part alkali", "just add water", "just-add-water"],
+    "stabilized-soil": ["stabilized soil", "stabilised soil", "soil stabil", "stabilized clay", "stabilised clay", "subgrade", "backfill", "stabilized sand", "treated soil", "dredged"]
+  },
+  "T_task_priority": [
+    ["experiment-selection", ["active learning", "sequential learning", "adaptive experiment", "experiment selection", "adaptive sampling"]],
+    ["inverse-design", ["inverse design", "inverse mix", "reverse design", "generative design", "recommender", "recommendation system", "inverse model"]],
+    ["multi-objective-optimization", ["multi-objective", "multiobjective", "multi objective", "nsga", "pareto", "mopso"]],
+    ["optimization", ["mix design optimi", "mixture optimi", "mix optimi", "optimal mix", "optimum mix", "optimized mix", "optimised mix", "optimization of mix", "optimisation of mix", "optimization of the mix", "optimize the mix", "optimise the mix", "optimal design", "design optimi", "optimal proportion", "mix proportion optimi", "optimal formulation"]],
+    ["classification", ["classification model", "classifier", "classification of", "classify "]],
+    ["microstructure/image-analysis", ["image analysis", "image-based", "image processing", "convolutional neural", "micrograph", "sem image", "ct image", "segmentation", "computer vision", "nanoindentation"]]
+  ],
+  "T_default": "prediction",
+  "P_physics": {
+    "III+ (claimed or candidate)": ["physics-informed", "physics informed", "physics-guided", "physics guided", "chemistry-informed", "chemistry informed", "knowledge-guided", "knowledge guided", "knowledge graph", "knowledge-embedded", "knowledge embedded", "domain-informed", "thermodynamic model", "thermodynamic simulation", "gems", "mechanistic", "density functional", "hybrid mechanistic", "scientific machine learning"],
+    "II": ["si/al", "sio2/al2o3", "sio2/na2o", "na2o/", "ca/si", "cao/sio2", "oxide composition", "oxide content", "chemical composition", "molar ratio", "silicate modulus", "activator modulus", "oxide ratio", "reactive"]
+  },
+  "E_env": {
+    "carbon": ["co2", "co₂", "carbon emission", "carbon footprint", "embodied carbon", "global warming potential", "carbon dioxide emission", "embodied energy", "greenhouse gas"],
+    "LCA": ["life cycle assessment", "life-cycle assessment", "life cycle analysis", "life-cycle analysis", " lca"],
+    "cost": ["cost"],
+    "durability": ["durab", "chloride", "carbonation", "sulfate", "sulphate", "acid resist", "acid attack", "freeze", "permeab", "water absorption", "shrinkage", "leaching", "elevated temperature", "high temperature", "fire resist"],
+    "waste-valorization": ["valoriz", "valoris", "waste utiliz", "waste utilis", "utilization of waste", "utilisation of waste", "industrial waste", "solid waste", "waste material", "waste-based", "waste-derived", "by-product", "byproduct", "recycling of", "circular economy"]
+  },
+  "trust": {
+    "XAI": ["shap", "shapley", "explainab", "interpretab", "partial dependence", "feature importance", "permutation importance", "variable importance", "importance analysis", "sensitivity analysis"],
+    "UQ": ["uncertainty quantif", "uncertainty-aware", "uncertainty analysis", "prediction interval", "predictive interval", "conformal", "probabilistic prediction", "epistemic", "aleatoric", "predictive uncertainty", "uncertainty estimat"],
+    "calibration": ["conformal", "empirical coverage", "interval coverage", "coverage probability", "calibration curve", "reliability diagram", "well-calibrated", "calibrated uncertainty", "calibrated prediction"],
+    "ext-val": ["external validation", "externally validated", "independent dataset", "independent data set", "independent test data", "independent experimental", "experimental validation", "experimentally validated", "validated experimentally", "laboratory validation", "validated by experiment", "validated through experiment", "new experiments", "additional experiments"],
+    "OOD": ["out-of-distribution", "out of distribution", "extrapolat", "transfer learning", "domain shift", "cross-domain", "out-of-range", "out of range", "leave-one", "unseen precursor", "unseen data from other"],
+    "repro-signal": ["github", "zenodo", "code is available", "code are available", "code availability", "open-source code", "source code", "publicly available code", "data and code"]
+  }
+}
