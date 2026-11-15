@@ -2,7 +2,7 @@
 
 Research artifact for the systematic review *From Property Prediction to Clean-Technology Deployment: A Systematic Review and Roadmap for Trustworthy AI in Low-Carbon Geopolymer Development* (PRISMA 2020; 669 unique primary studies).
 
-Archived on Zenodo, all versions: [10.5281/zenodo.24222980](https://doi.org/10.5281/zenodo.24222980). Licence: CC BY 4.0.
+Archived on Zenodo, all versions: [10.5281/zenodo.24253216](https://doi.org/10.5281/zenodo.24253216). Licence: CC BY 4.0.
 
 This repository holds only the data and scripts that the article and its Supplementary Materials refer to. No abstract text from the reviewed articles is included; records are identified by DOI or Scopus EID and title.
 
